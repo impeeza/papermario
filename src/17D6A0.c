@@ -2517,8 +2517,8 @@ s32 D_802838FC_padding = 0;
 
 //TODO split files
 
-#include "ui/battle/cursor_hand.png.inc.c"
-#include "ui/battle/cursor_hand.pal.inc.c"
+INCLUDE_ASSET("ui/battle/cursor_hand.png.bin", D_80283900); //#include "ui/battle/cursor_hand.png.inc.c"
+INCLUDE_ASSET("ui/battle/cursor_hand.pal.bin", D_80283B00); // #include "ui/battle/cursor_hand.pal.inc.c"
 
 Vtx D_80283B20[4] = {
     {{{ -22, -6, 0 }, 0, { 1024, 1024 }, { 0, 0, 0, 255 }}},

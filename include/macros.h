@@ -3,6 +3,7 @@
 
 #include "types.h"
 #include "include_asm.h"
+#include "include_asset.h"
 
 #ifndef M2CTX
 
